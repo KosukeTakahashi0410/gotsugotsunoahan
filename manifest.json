@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "◯ツ◯ツの◯ハン",
+  "version": "0.1",
+  "description": "とにかく雑なものを作りたかったです、後悔はしていない",
+  "browser_action": {
+    "default_popup": "pages/popup.html"
+  }
+}
