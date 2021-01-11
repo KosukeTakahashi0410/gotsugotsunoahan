@@ -77,10 +77,11 @@ button.onclick = () => {
   }
 
   // 画像表示まで時間がかかるため、一時ボタンを使用不可にして結果表示を待たせる
+  // 実際に使うときには不要な機能かも、削除めんどいから消さないが
   window.setTimeout(() => {
     // 結果のテキストを表示
     result.textContent = resultText
     // ボタンを活性に
     button.disabled = false
-  }, 3000)
+  }, 1000)
 }
